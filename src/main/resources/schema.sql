@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS BOOKS (
+       id INT AUTO_INCREMENT  PRIMARY KEY,
+       author VARCHAR(250) NOT NULL,
+       publisher VARCHAR(250) NOT NULL,
+       publish_date DATE NOT NULL
+  );
